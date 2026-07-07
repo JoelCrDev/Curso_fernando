@@ -3,7 +3,7 @@ void main() {
   //Si resivimos alguna peticion http
   final Map<String,dynamic> rawJson = {
     'name': "tony",
-    "power": "dinero",
+    "power": null,
     "isAlive": true
   };
 
@@ -15,7 +15,7 @@ void main() {
   //   isAlive: false
   // );
 
-  print(ironman);
+  print(ironman.power);
   print(ironman.toString());
 
 }

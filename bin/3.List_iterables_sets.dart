@@ -3,7 +3,7 @@ void main (){
   print('Lista original $numeros');
   print('Lista original ${numeros.length}');
   print(numeros.first);
-  
+          
   //Los pone en ()
   print(numeros.reversed);
   //Devuelve un iterable

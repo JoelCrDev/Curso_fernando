@@ -10,7 +10,7 @@ String saludar () => 'Hola';
 
 String saludar2 () {
   return 'Hola';
-}
+            }
 
 //Debemos tener un tipado estricto dentro de las funciones, no podemos devolver un string si la función es de tipo int
 int sumar (int a,int b) => a + b;
