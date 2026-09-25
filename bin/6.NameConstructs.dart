@@ -30,7 +30,7 @@ class Hero {
 
   //Creamos un constructor con un nombre propio 
   Hero.fromJson(Map<String,dynamic> json) 
-    : name = json['name'] ?? 'No hay nonbre',
+    : name = json['name'] ?? 'No hay nombre',
     power = json['power'] ?? 'no hay poder',
     isAlive = json['isAlive'] ?? "No esta vivo";
 

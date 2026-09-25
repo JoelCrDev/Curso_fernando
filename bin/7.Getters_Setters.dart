@@ -35,7 +35,6 @@ class Square {
   //Funcion Flecha para ahorrar lineas de codigo
   double get area => _side * _side;
 
-
   set side(double value) {
     print("Setting new value: $value");
     //throw sirve para detener el programa si no se cumple la condicion

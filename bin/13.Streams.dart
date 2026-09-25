@@ -1,5 +1,5 @@
 void main() {
-  //El listen es para que podamos receber los datos del stream, el que escucha
+  //El listen es para que podamos recibir los datos del stream, el que escucha
   //Pero para que el stream funcione necesitamos un bucle infinito o un Future para que el stream no se cierre
   emitNumbers().listen((value) {
     print("Stream value: $value");
